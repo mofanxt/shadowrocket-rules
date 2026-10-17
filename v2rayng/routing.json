@@ -1,0 +1,218 @@
+[
+  {
+    "remarks": "01 域名直连",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "direct",
+    "domain": [
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:category-games@cn"
+    ]
+  },
+  {
+    "remarks": "02 域名直连",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "direct",
+    "domain": [
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:alibaba",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:tencent",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:bilibili",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:youku",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:iqiyi",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:netease",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:baidu",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:sina",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:xiaohongshu",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:zhihu",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:meituan",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:jd",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:apple-cn",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:apple@cn",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:win-update",
+      "domain:software-download.microsoft.com",
+      "domain:download.prss.microsoft.com",
+      "domain:steampipe.steamcontent.tnkjmec.com",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:steam@cn",
+      "domain:store.steampowered.com",
+      "domain:checkout.steampowered.com",
+      "domain:steamcontent.com",
+      "regexp:^(client-(download|update)(\\.[a-z0-9-]+)?|cdn\\.[a-z0-9-]+)\\.(steampowered|steamstatic)\\.com$",
+      "regexp:^(store|checkout)(\\.[a-z0-9-]+)?\\.steamstatic\\.com$",
+      "regexp:^steampipe(-[a-z0-9-]+)?\\.akamaized\\.net$",
+      "domain:steamcdn-a.akamaihd.net",
+      "domain:steamstore-a.akamaihd.net",
+      "domain:steam.cdn.on.net",
+      "domain:steam.cdn.orcon.net.nz",
+      "domain:steam.cdn.slingshot.co.nz",
+      "domain:steam.cdn.webra.ru",
+      "regexp:^steam\\.(apac|eca|naeu|ru)\\.qtlglb\\.com$",
+      "full:a4e8s8k3.map2.ssl.hwcdn.net",
+      "full:f3b7q2p3.ssl.hwcdn.net"
+    ]
+  },
+  {
+    "remarks": "03 域名代理",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "domain": [
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:category-games"
+    ]
+  },
+  {
+    "remarks": "04 域名代理",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:uhdnow.com"
+    ]
+  },
+  {
+    "remarks": "05 域名代理",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "domain": [
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:category-ai-!cn",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:apple-intelligence"
+    ]
+  },
+  {
+    "remarks": "06 域名代理",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "domain": [
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:apple"
+    ]
+  },
+  {
+    "remarks": "07 域名代理",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "domain": [
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:netflix",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:disney",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:binance",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:youtube",
+      "domain:tplinknbu.com",
+      "domain:tplinkcloud.com",
+      "domain:tplinkra.com",
+      "domain:micu.hk"
+    ]
+  },
+  {
+    "remarks": "08 域名代理",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "domain": [
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:pikpak"
+    ]
+  },
+  {
+    "remarks": "09 域名代理",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "domain": [
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:google"
+    ]
+  },
+  {
+    "remarks": "10 域名代理",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "domain": [
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:longbridge",
+      "domain:hk",
+      "domain:sg",
+      "domain:tw"
+    ]
+  },
+  {
+    "remarks": "11 域名代理",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "domain": [
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:paypal",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:speedtest",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:cloudflare",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:amazon",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:category-finance",
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:geolocation-!cn",
+      "domain:mobaiemby.site"
+    ]
+  },
+  {
+    "remarks": "12 域名直连",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "direct",
+    "domain": [
+      "ext:phone-geosite.79d15a5bd8205d83c377fcfde394500db762b2b400feff24612834e528a111cb.dat:cn",
+      "domain:cn"
+    ]
+  },
+  {
+    "remarks": "13 IP代理",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "ip": [
+      "ext:phone-geoip.116cc0f03d48991962f7f9cdbbcf53d45d89777f9c3cd1a663210853e5df6093.dat:netflix"
+    ]
+  },
+  {
+    "remarks": "14 IP代理",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "ip": [
+      "ext:phone-geoip.116cc0f03d48991962f7f9cdbbcf53d45d89777f9c3cd1a663210853e5df6093.dat:hk",
+      "ext:phone-geoip.116cc0f03d48991962f7f9cdbbcf53d45d89777f9c3cd1a663210853e5df6093.dat:sg",
+      "ext:phone-geoip.116cc0f03d48991962f7f9cdbbcf53d45d89777f9c3cd1a663210853e5df6093.dat:tw"
+    ]
+  },
+  {
+    "remarks": "15 IP代理",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "ip": [
+      "ext:phone-geoip.116cc0f03d48991962f7f9cdbbcf53d45d89777f9c3cd1a663210853e5df6093.dat:hk",
+      "8.8.4.4",
+      "8.8.8.8",
+      "1.1.1.1",
+      "1.1.1.2",
+      "1.0.0.1",
+      "9.9.9.9",
+      "2606:4700:4700::1111",
+      "2606:4700:4700::1001",
+      "2001:4860:4860::8888",
+      "2001:4860:4860::8844"
+    ]
+  },
+  {
+    "remarks": "16 IP直连",
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "direct",
+    "ip": [
+      "223.5.5.5/32",
+      "223.6.6.6/32",
+      "119.29.29.29/32",
+      "180.76.76.76/32",
+      "114.114.114.114/32",
+      "114.114.115.115/32",
+      "1.12.12.12/32",
+      "120.53.53.53/32",
+      "ext:phone-geoip.116cc0f03d48991962f7f9cdbbcf53d45d89777f9c3cd1a663210853e5df6093.dat:cn",
+      "ext:phone-geoip.116cc0f03d48991962f7f9cdbbcf53d45d89777f9c3cd1a663210853e5df6093.dat:private"
+    ]
+  }
+]

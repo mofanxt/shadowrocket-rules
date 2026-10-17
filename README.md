@@ -81,3 +81,11 @@
 - [Loyalsoldier / v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
 
 规则集优先使用经来源和范围核对的固定提交版本；无法等价引用的条目保留在配置或匹配脚本中。欢迎通过 Issues 反馈规则命中问题，提供目标域名、预期策略与脱敏日志即可，请勿提交节点密码、订阅密钥或其他个人信息。
+
+## Android / v2rayNG
+
+Android 用户可使用同一套分流策略的原生 Xray 路由版本，支持精确域名、正则与固定 Geo 资源，不需要域名匹配脚本。
+
+[v2rayNG 导入指南与下载](v2rayng/README.md) · [路由 JSON](v2rayng/routing.json)
+
+Android 版本仅包含分流和 Geo 资源，上面的 Shadowrocket DNS、IPv6、QUIC 设置不会自动应用；当前采用手动导入，IP 白名单上报可按指南配合 MacroDroid 使用。
