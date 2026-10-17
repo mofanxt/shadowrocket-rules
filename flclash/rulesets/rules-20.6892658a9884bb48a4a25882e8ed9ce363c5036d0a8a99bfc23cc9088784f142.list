@@ -1,0 +1,8 @@
+DOMAIN-REGEX,(?-i:.+\.awsdns-cn-[0-9][0-9]\.(biz|com|net|top)\z)
+DOMAIN-REGEX,(?-i:.+\.awsdns-cn-[0-9][a-e0-9]\.cn\z)
+DOMAIN-REGEX,(?-i:^(.+\.)*zh\.okaapps\.com\z)
+DOMAIN-REGEX,(?-i:^.+-mihayo\.akamaized\.net\z)
+DOMAIN-REGEX,(?-i:^cdn[0-9]-epicgames-[0-9]+\.file\.myqcloud\.com\z)
+DOMAIN-REGEX,(?-i:^epicgames-download[0-9]-[0-9]+\.file\.myqcloud\.com\z)
+DOMAIN-REGEX,(?-i:^r+[0-9]+(---|\.)sn-(2x3|ni5|j5o)[A-Za-z0-9_]{5}\.googlevideo\.com\z)
+DOMAIN-REGEX,(?-i:^r+[0-9]+(---|\.)sn-(2x3|ni5|j5o)[A-Za-z0-9_]{5}\.xn--ngstr-lra8j\.com\z)
