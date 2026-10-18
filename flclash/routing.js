@@ -1,4 +1,26 @@
-// 只转换分流；节点和订阅保留在客户端本地。
+// 只转换分流和 DNS；节点和订阅保留在客户端本地。
+const dnsPlan = {
+  "enable": true,
+  "ipv6": false,
+  "enhanced-mode": "fake-ip",
+  "respect-rules": false,
+  "default-nameserver": [
+    "119.29.29.29",
+    "223.5.5.5"
+  ],
+  "proxy-server-nameserver": [
+    "https://doh.pub/dns-query",
+    "https://dns.alidns.com/dns-query"
+  ],
+  "direct-nameserver": [
+    "https://doh.pub/dns-query",
+    "https://dns.alidns.com/dns-query"
+  ],
+  "direct-nameserver-follow-policy": false,
+  "nameserver": [
+    "https://8.8.8.8/dns-query#PROXY"
+  ]
+};
 const routingPlan = {
   "rule-providers": {
     "rules-01": {
@@ -275,5 +297,11 @@ function main(config) {
   config["rule-providers"] = routingPlan["rule-providers"];
   config.rules = routingPlan.rules;
   config.mode = "rule";
+  // DNS 与流量使用同一套规则，移除客户端原有的按域名或回退选择上游。
+  const dns = Object.assign({}, config.dns || {});
+  ["nameserver-policy", "fallback", "fallback-filter"].forEach(function (key) {
+    delete dns[key];
+  });
+  config.dns = Object.assign(dns, dnsPlan);
   return config;
 }
