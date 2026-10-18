@@ -27,12 +27,10 @@ const dnsPlan = {
       "https://dns.alidns.com/dns-query"
     ],
     "rule-set:rules-03": [
-      "https://doh.pub/dns-query",
-      "https://dns.alidns.com/dns-query"
+      "https://8.8.8.8/dns-query#PROXY"
     ],
     "rule-set:rules-04": [
-      "https://doh.pub/dns-query",
-      "https://dns.alidns.com/dns-query"
+      "https://8.8.8.8/dns-query#PROXY"
     ],
     "rule-set:rules-05": [
       "https://8.8.8.8/dns-query#PROXY"
@@ -65,22 +63,14 @@ const dnsPlan = {
       "https://8.8.8.8/dns-query#PROXY"
     ],
     "rule-set:rules-15": [
-      "https://8.8.8.8/dns-query#PROXY"
-    ],
-    "rule-set:rules-16": [
-      "https://8.8.8.8/dns-query#PROXY"
-    ],
-    "rule-set:rules-17": [
-      "https://8.8.8.8/dns-query#PROXY"
-    ],
-    "rule-set:rules-18": [
-      "https://8.8.8.8/dns-query#PROXY"
-    ],
-    "rule-set:rules-19": [
       "https://doh.pub/dns-query",
       "https://dns.alidns.com/dns-query"
     ],
-    "rule-set:rules-20": [
+    "rule-set:rules-16": [
+      "https://doh.pub/dns-query",
+      "https://dns.alidns.com/dns-query"
+    ],
+    "rule-set:rules-17": [
       "https://doh.pub/dns-query",
       "https://dns.alidns.com/dns-query"
     ]
@@ -95,51 +85,27 @@ const routingPlan = {
       "type": "http",
       "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-01.8d67332cb4b24f8bd939553a87c10d8d4786a40d032cd85def381c6b793eef29.list",
-      "path": "./flclash/rulesets/rules-01.8d67332cb4b24f8bd939553a87c10d8d4786a40d032cd85def381c6b793eef29.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-01.d2df2445908f89f62e3efd6266d4b6c4a8251e1fc370e4a1e9d74a678fc77589.list",
+      "path": "./flclash/rulesets/rules-01.d2df2445908f89f62e3efd6266d4b6c4a8251e1fc370e4a1e9d74a678fc77589.list",
       "interval": 604800
     },
     "rules-02": {
       "type": "http",
       "behavior": "classical",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-02.22246591f709db94aba482a6cfde2c313ed8df5932658921bbf38c04f6656a31.list",
-      "path": "./flclash/rulesets/rules-02.22246591f709db94aba482a6cfde2c313ed8df5932658921bbf38c04f6656a31.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-02.0bc8f912bae768ee0f6c2e9b340e5e392e03ddf489864cb20d9e8dd91314e191.list",
+      "path": "./flclash/rulesets/rules-02.0bc8f912bae768ee0f6c2e9b340e5e392e03ddf489864cb20d9e8dd91314e191.list",
       "interval": 604800
     },
     "rules-03": {
       "type": "http",
       "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-03.39bf9e6a539b1d5848095655cf8d3285ec8a7f403af5cbf5ae7429af74bb31af.list",
-      "path": "./flclash/rulesets/rules-03.39bf9e6a539b1d5848095655cf8d3285ec8a7f403af5cbf5ae7429af74bb31af.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-03.37f15a7c62d22b40807aec0f0c689ce9fcbb829201121d10e69c69cab3ebe2ff.list",
+      "path": "./flclash/rulesets/rules-03.37f15a7c62d22b40807aec0f0c689ce9fcbb829201121d10e69c69cab3ebe2ff.list",
       "interval": 604800
     },
     "rules-04": {
-      "type": "http",
-      "behavior": "classical",
-      "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-04.0bc8f912bae768ee0f6c2e9b340e5e392e03ddf489864cb20d9e8dd91314e191.list",
-      "path": "./flclash/rulesets/rules-04.0bc8f912bae768ee0f6c2e9b340e5e392e03ddf489864cb20d9e8dd91314e191.list",
-      "interval": 604800
-    },
-    "rules-05": {
-      "type": "http",
-      "behavior": "domain",
-      "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-05.26645ea570eb272d0f55b72ffa71d95e23b4dad6a57f9255a96bced7e46b3c9e.list",
-      "path": "./flclash/rulesets/rules-05.26645ea570eb272d0f55b72ffa71d95e23b4dad6a57f9255a96bced7e46b3c9e.list",
-      "interval": 604800
-    },
-    "rules-06": {
-      "type": "http",
-      "behavior": "classical",
-      "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-06.6b5c4ce6e59700d7f2318baae3609f665af8de44a5c9d160901e39c6148c89bc.list",
-      "path": "./flclash/rulesets/rules-06.6b5c4ce6e59700d7f2318baae3609f665af8de44a5c9d160901e39c6148c89bc.list",
-      "interval": 604800
-    },
-    "rules-07": {
       "type": "http",
       "behavior": "classical",
       "format": "text",
@@ -147,103 +113,103 @@ const routingPlan = {
       "path": "./flclash/upstream/ef09439812c4502f5a30878a7b07d9257a87609cdf964ea20d5185d832e84d7b.list",
       "interval": 604800
     },
+    "rules-05": {
+      "type": "http",
+      "behavior": "domain",
+      "format": "text",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-05.90fb4946f3d0ead23cc434accd0bd420850badce0a874ab9a8f9a37bc0bf0fbe.list",
+      "path": "./flclash/rulesets/rules-05.90fb4946f3d0ead23cc434accd0bd420850badce0a874ab9a8f9a37bc0bf0fbe.list",
+      "interval": 604800
+    },
+    "rules-06": {
+      "type": "http",
+      "behavior": "classical",
+      "format": "text",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-06.88b73f9452303e5091dbe2de309646a39207355e978d46b109bfa55f9e5025e9.list",
+      "path": "./flclash/rulesets/rules-06.88b73f9452303e5091dbe2de309646a39207355e978d46b109bfa55f9e5025e9.list",
+      "interval": 604800
+    },
+    "rules-07": {
+      "type": "http",
+      "behavior": "domain",
+      "format": "text",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-07.1c74a6469724f5d1a70354e1f7143367c2711c3de2b9786008cbca73eda22c10.list",
+      "path": "./flclash/rulesets/rules-07.1c74a6469724f5d1a70354e1f7143367c2711c3de2b9786008cbca73eda22c10.list",
+      "interval": 604800
+    },
     "rules-08": {
       "type": "http",
       "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-08.37f15a7c62d22b40807aec0f0c689ce9fcbb829201121d10e69c69cab3ebe2ff.list",
-      "path": "./flclash/rulesets/rules-08.37f15a7c62d22b40807aec0f0c689ce9fcbb829201121d10e69c69cab3ebe2ff.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-08.55a5974a7e2bd8163169c20a1dd4c5c0155b4d42267d594fc6bfa722766893c9.list",
+      "path": "./flclash/rulesets/rules-08.55a5974a7e2bd8163169c20a1dd4c5c0155b4d42267d594fc6bfa722766893c9.list",
       "interval": 604800
     },
     "rules-09": {
       "type": "http",
-      "behavior": "domain",
+      "behavior": "classical",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-09.90fb4946f3d0ead23cc434accd0bd420850badce0a874ab9a8f9a37bc0bf0fbe.list",
-      "path": "./flclash/rulesets/rules-09.90fb4946f3d0ead23cc434accd0bd420850badce0a874ab9a8f9a37bc0bf0fbe.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-09.c4dab88893b4e677eeff7668af64a7302d66e33a786e57a7acdd3d1f5275d5ce.list",
+      "path": "./flclash/rulesets/rules-09.c4dab88893b4e677eeff7668af64a7302d66e33a786e57a7acdd3d1f5275d5ce.list",
       "interval": 604800
     },
     "rules-10": {
       "type": "http",
-      "behavior": "classical",
+      "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-10.88b73f9452303e5091dbe2de309646a39207355e978d46b109bfa55f9e5025e9.list",
-      "path": "./flclash/rulesets/rules-10.88b73f9452303e5091dbe2de309646a39207355e978d46b109bfa55f9e5025e9.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-10.c95f6c8882480aeb84ef1a7be3938e6b1af78f0dbeb9b07e40ccd45e030f8474.list",
+      "path": "./flclash/rulesets/rules-10.c95f6c8882480aeb84ef1a7be3938e6b1af78f0dbeb9b07e40ccd45e030f8474.list",
       "interval": 604800
     },
     "rules-11": {
       "type": "http",
-      "behavior": "domain",
+      "behavior": "classical",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-11.1c74a6469724f5d1a70354e1f7143367c2711c3de2b9786008cbca73eda22c10.list",
-      "path": "./flclash/rulesets/rules-11.1c74a6469724f5d1a70354e1f7143367c2711c3de2b9786008cbca73eda22c10.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-11.d2da642fad34b8eebd81879fbbacbb89e13881a59f2614e2515994d79b545d30.list",
+      "path": "./flclash/rulesets/rules-11.d2da642fad34b8eebd81879fbbacbb89e13881a59f2614e2515994d79b545d30.list",
       "interval": 604800
     },
     "rules-12": {
       "type": "http",
       "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-12.55a5974a7e2bd8163169c20a1dd4c5c0155b4d42267d594fc6bfa722766893c9.list",
-      "path": "./flclash/rulesets/rules-12.55a5974a7e2bd8163169c20a1dd4c5c0155b4d42267d594fc6bfa722766893c9.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-12.483c5dbc086da2ca47c28e8e57ed6a3e9ba4f6a1edb56ba9de0ae8705cb82146.list",
+      "path": "./flclash/rulesets/rules-12.483c5dbc086da2ca47c28e8e57ed6a3e9ba4f6a1edb56ba9de0ae8705cb82146.list",
       "interval": 604800
     },
     "rules-13": {
       "type": "http",
-      "behavior": "classical",
+      "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-13.c4dab88893b4e677eeff7668af64a7302d66e33a786e57a7acdd3d1f5275d5ce.list",
-      "path": "./flclash/rulesets/rules-13.c4dab88893b4e677eeff7668af64a7302d66e33a786e57a7acdd3d1f5275d5ce.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-13.115b04d73556f3ae38ee38aaaf50ce7b0afbfc26de4a46f20061397d2108d793.list",
+      "path": "./flclash/rulesets/rules-13.115b04d73556f3ae38ee38aaaf50ce7b0afbfc26de4a46f20061397d2108d793.list",
       "interval": 604800
     },
     "rules-14": {
       "type": "http",
-      "behavior": "domain",
+      "behavior": "classical",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-14.c95f6c8882480aeb84ef1a7be3938e6b1af78f0dbeb9b07e40ccd45e030f8474.list",
-      "path": "./flclash/rulesets/rules-14.c95f6c8882480aeb84ef1a7be3938e6b1af78f0dbeb9b07e40ccd45e030f8474.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-14.63734fd74a8e50827602e0e390a4e9b43d304973bd9782b39aad4430c1441d4f.list",
+      "path": "./flclash/rulesets/rules-14.63734fd74a8e50827602e0e390a4e9b43d304973bd9782b39aad4430c1441d4f.list",
       "interval": 604800
     },
     "rules-15": {
       "type": "http",
-      "behavior": "classical",
+      "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-15.d2da642fad34b8eebd81879fbbacbb89e13881a59f2614e2515994d79b545d30.list",
-      "path": "./flclash/rulesets/rules-15.d2da642fad34b8eebd81879fbbacbb89e13881a59f2614e2515994d79b545d30.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-15.f70f3f7bd883c516355ea046268a267a961a6c3046ba1aa14c1ab90770331468.list",
+      "path": "./flclash/rulesets/rules-15.f70f3f7bd883c516355ea046268a267a961a6c3046ba1aa14c1ab90770331468.list",
       "interval": 604800
     },
     "rules-16": {
       "type": "http",
-      "behavior": "domain",
+      "behavior": "classical",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-16.483c5dbc086da2ca47c28e8e57ed6a3e9ba4f6a1edb56ba9de0ae8705cb82146.list",
-      "path": "./flclash/rulesets/rules-16.483c5dbc086da2ca47c28e8e57ed6a3e9ba4f6a1edb56ba9de0ae8705cb82146.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-16.b774e39e5332a4f098f2c9cc1e75f5305a22e76b346d42841b923d8ce6807d5a.list",
+      "path": "./flclash/rulesets/rules-16.b774e39e5332a4f098f2c9cc1e75f5305a22e76b346d42841b923d8ce6807d5a.list",
       "interval": 604800
     },
     "rules-17": {
-      "type": "http",
-      "behavior": "domain",
-      "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-17.15c57f8292e5a1cee7c9aa3394c52e3dbd0af140387c9aee944410cf3f74b52c.list",
-      "path": "./flclash/rulesets/rules-17.15c57f8292e5a1cee7c9aa3394c52e3dbd0af140387c9aee944410cf3f74b52c.list",
-      "interval": 604800
-    },
-    "rules-18": {
-      "type": "http",
-      "behavior": "classical",
-      "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-18.2b9972df7193690af40d71ad04d54d54019befce8623d0fd92d8fa6d8cbaef93.list",
-      "path": "./flclash/rulesets/rules-18.2b9972df7193690af40d71ad04d54d54019befce8623d0fd92d8fa6d8cbaef93.list",
-      "interval": 604800
-    },
-    "rules-19": {
-      "type": "http",
-      "behavior": "classical",
-      "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-19.1e75b55a2effcd6b969c89bae7a3778f448591e60b777deea6d8cbad3528a932.list",
-      "path": "./flclash/rulesets/rules-19.1e75b55a2effcd6b969c89bae7a3778f448591e60b777deea6d8cbad3528a932.list",
-      "interval": 604800
-    },
-    "rules-20": {
       "type": "http",
       "behavior": "classical",
       "format": "text",
@@ -251,7 +217,7 @@ const routingPlan = {
       "path": "./flclash/upstream/e378af27dcc7546385b4592dd3bed5efda141a51733fe2f69960dd7d4e5ac388.list",
       "interval": 604800
     },
-    "rules-21": {
+    "rules-18": {
       "type": "http",
       "behavior": "ipcidr",
       "format": "text",
@@ -259,7 +225,7 @@ const routingPlan = {
       "path": "./flclash/upstream/e58eaa4309007aa141f3e1da7043feaa648c37675fb91d4fc70c12a517694761.list",
       "interval": 604800
     },
-    "rules-22": {
+    "rules-19": {
       "type": "http",
       "behavior": "ipcidr",
       "format": "text",
@@ -267,7 +233,7 @@ const routingPlan = {
       "path": "./flclash/upstream/6b1595318b44f3846c5726fc26b08b4cd9fde2b7a7d7fa31a7886dc7433dfa34.list",
       "interval": 604800
     },
-    "rules-23": {
+    "rules-20": {
       "type": "http",
       "behavior": "ipcidr",
       "format": "text",
@@ -275,7 +241,7 @@ const routingPlan = {
       "path": "./flclash/upstream/7271ed7c2492411a8beee3b64811cb394be2ea5836d5016f6486cf571c39d955.list",
       "interval": 604800
     },
-    "rules-24": {
+    "rules-21": {
       "type": "http",
       "behavior": "ipcidr",
       "format": "text",
@@ -283,15 +249,15 @@ const routingPlan = {
       "path": "./flclash/upstream/b9afd2d170292473bb35965f28ad419f674f7a18c14a6fea40c5d819813df4b7.list",
       "interval": 604800
     },
-    "rules-25": {
+    "rules-22": {
       "type": "http",
       "behavior": "ipcidr",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-25.f48523f6eeadb8484099a4298c626af46adaaee7998767b566511a7d6381a789.list",
-      "path": "./flclash/rulesets/rules-25.f48523f6eeadb8484099a4298c626af46adaaee7998767b566511a7d6381a789.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-22.f48523f6eeadb8484099a4298c626af46adaaee7998767b566511a7d6381a789.list",
+      "path": "./flclash/rulesets/rules-22.f48523f6eeadb8484099a4298c626af46adaaee7998767b566511a7d6381a789.list",
       "interval": 604800
     },
-    "rules-26": {
+    "rules-23": {
       "type": "http",
       "behavior": "ipcidr",
       "format": "text",
@@ -299,7 +265,7 @@ const routingPlan = {
       "path": "./flclash/upstream/10a1c18eb09d62931a127b9943d9eadfaac6eb93f2ef4ff00fdb507a2307dc16.list",
       "interval": 604800
     },
-    "rules-27": {
+    "rules-24": {
       "type": "http",
       "behavior": "ipcidr",
       "format": "text",
@@ -311,8 +277,8 @@ const routingPlan = {
   "rules": [
     "RULE-SET,rules-01,DIRECT",
     "RULE-SET,rules-02,DIRECT",
-    "RULE-SET,rules-03,DIRECT",
-    "RULE-SET,rules-04,DIRECT",
+    "RULE-SET,rules-03,PROXY",
+    "RULE-SET,rules-04,PROXY",
     "RULE-SET,rules-05,PROXY",
     "RULE-SET,rules-06,PROXY",
     "RULE-SET,rules-07,PROXY",
@@ -323,19 +289,16 @@ const routingPlan = {
     "RULE-SET,rules-12,PROXY",
     "RULE-SET,rules-13,PROXY",
     "RULE-SET,rules-14,PROXY",
-    "RULE-SET,rules-15,PROXY",
-    "RULE-SET,rules-16,PROXY",
-    "RULE-SET,rules-17,PROXY",
+    "RULE-SET,rules-15,DIRECT",
+    "RULE-SET,rules-16,DIRECT",
+    "RULE-SET,rules-17,DIRECT",
     "RULE-SET,rules-18,PROXY",
-    "RULE-SET,rules-19,DIRECT",
-    "RULE-SET,rules-20,DIRECT",
+    "RULE-SET,rules-19,PROXY",
+    "RULE-SET,rules-20,PROXY",
     "RULE-SET,rules-21,PROXY",
     "RULE-SET,rules-22,PROXY",
-    "RULE-SET,rules-23,PROXY",
-    "RULE-SET,rules-24,PROXY",
-    "RULE-SET,rules-25,PROXY",
-    "RULE-SET,rules-26,DIRECT",
-    "RULE-SET,rules-27,DIRECT",
+    "RULE-SET,rules-23,DIRECT",
+    "RULE-SET,rules-24,DIRECT",
     "MATCH,PROXY"
   ]
 };

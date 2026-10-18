@@ -1,0 +1,1 @@
+DOMAIN-REGEX,(?-i:^chatgpt-async-webps-prod-[^\t\n\f\r ]+-[0-9]+\.webpubsub\.azure\.com\z)
