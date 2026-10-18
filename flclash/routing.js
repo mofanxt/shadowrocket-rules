@@ -2,7 +2,7 @@
 const dnsPlan = {
   "enable": true,
   "ipv6": false,
-  "enhanced-mode": "fake-ip",
+  "enhanced-mode": "redir-host",
   "respect-rules": false,
   "default-nameserver": [
     "119.29.29.29",
@@ -17,6 +17,74 @@ const dnsPlan = {
     "https://dns.alidns.com/dns-query"
   ],
   "direct-nameserver-follow-policy": false,
+  "nameserver-policy": {
+    "rule-set:rules-01": [
+      "https://doh.pub/dns-query",
+      "https://dns.alidns.com/dns-query"
+    ],
+    "rule-set:rules-02": [
+      "https://doh.pub/dns-query",
+      "https://dns.alidns.com/dns-query"
+    ],
+    "rule-set:rules-03": [
+      "https://doh.pub/dns-query",
+      "https://dns.alidns.com/dns-query"
+    ],
+    "rule-set:rules-04": [
+      "https://doh.pub/dns-query",
+      "https://dns.alidns.com/dns-query"
+    ],
+    "rule-set:rules-05": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-06": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-07": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-08": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-09": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-10": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-11": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-12": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-13": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-14": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-15": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-16": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-17": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-18": [
+      "https://8.8.8.8/dns-query#PROXY"
+    ],
+    "rule-set:rules-19": [
+      "https://doh.pub/dns-query",
+      "https://dns.alidns.com/dns-query"
+    ],
+    "rule-set:rules-20": [
+      "https://doh.pub/dns-query",
+      "https://dns.alidns.com/dns-query"
+    ]
+  },
   "nameserver": [
     "https://8.8.8.8/dns-query#PROXY"
   ]
@@ -297,11 +365,9 @@ function main(config) {
   config["rule-providers"] = routingPlan["rule-providers"];
   config.rules = routingPlan.rules;
   config.mode = "rule";
-  // DNS 与流量使用同一套规则，移除客户端原有的按域名或回退选择上游。
+  // DNS 与流量使用同一套规则，替换客户端原有的按域名或回退选择上游。
   const dns = Object.assign({}, config.dns || {});
-  ["nameserver-policy", "fallback", "fallback-filter"].forEach(function (key) {
-    delete dns[key];
-  });
+  ["fallback", "fallback-filter"].forEach(function (key) { delete dns[key]; });
   config.dns = Object.assign(dns, dnsPlan);
   return config;
 }
