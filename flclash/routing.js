@@ -85,8 +85,8 @@ const routingPlan = {
       "type": "http",
       "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-01.d2df2445908f89f62e3efd6266d4b6c4a8251e1fc370e4a1e9d74a678fc77589.list",
-      "path": "./flclash/rulesets/rules-01.d2df2445908f89f62e3efd6266d4b6c4a8251e1fc370e4a1e9d74a678fc77589.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-01.5264573cf446d28f18dd0aaafc08d92a29bd9b5aa5af7b2f092b827663762e22.list",
+      "path": "./flclash/rulesets/rules-01.5264573cf446d28f18dd0aaafc08d92a29bd9b5aa5af7b2f092b827663762e22.list",
       "interval": 604800
     },
     "rules-02": {
@@ -109,16 +109,16 @@ const routingPlan = {
       "type": "http",
       "behavior": "classical",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/839f1ae338e41ca77b4599119c000e93bb89822e/ruleset/proxy.txt",
-      "path": "./flclash/upstream/ef09439812c4502f5a30878a7b07d9257a87609cdf964ea20d5185d832e84d7b.list",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/8a13c2b7adbc61498b6eba92e8fb555a35cf22c3/ruleset/proxy.txt",
+      "path": "./flclash/upstream/b5255e3eae3a22bd03d9735468d5f78eb5a882deda3eb10b224fa5bdb809f361.list",
       "interval": 604800
     },
     "rules-05": {
       "type": "http",
       "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-05.90fb4946f3d0ead23cc434accd0bd420850badce0a874ab9a8f9a37bc0bf0fbe.list",
-      "path": "./flclash/rulesets/rules-05.90fb4946f3d0ead23cc434accd0bd420850badce0a874ab9a8f9a37bc0bf0fbe.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-05.5a40b58aa41e2fe378c8695335eb49abc539b580c72d2fb3b428e5990b3a8000.list",
+      "path": "./flclash/rulesets/rules-05.5a40b58aa41e2fe378c8695335eb49abc539b580c72d2fb3b428e5990b3a8000.list",
       "interval": 604800
     },
     "rules-06": {
@@ -181,8 +181,8 @@ const routingPlan = {
       "type": "http",
       "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-13.115b04d73556f3ae38ee38aaaf50ce7b0afbfc26de4a46f20061397d2108d793.list",
-      "path": "./flclash/rulesets/rules-13.115b04d73556f3ae38ee38aaaf50ce7b0afbfc26de4a46f20061397d2108d793.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-13.aa1d65b38150455e5f81d2a0dfe84f8727eea23d9376df3bac504444a985ae18.list",
+      "path": "./flclash/rulesets/rules-13.aa1d65b38150455e5f81d2a0dfe84f8727eea23d9376df3bac504444a985ae18.list",
       "interval": 604800
     },
     "rules-14": {
@@ -197,8 +197,8 @@ const routingPlan = {
       "type": "http",
       "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-15.f70f3f7bd883c516355ea046268a267a961a6c3046ba1aa14c1ab90770331468.list",
-      "path": "./flclash/rulesets/rules-15.f70f3f7bd883c516355ea046268a267a961a6c3046ba1aa14c1ab90770331468.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-15.1f10a8c358ff65ddc35c058e554ba76c6ca9919ba92ec0c2bc38b71df76cddc4.list",
+      "path": "./flclash/rulesets/rules-15.1f10a8c358ff65ddc35c058e554ba76c6ca9919ba92ec0c2bc38b71df76cddc4.list",
       "interval": 604800
     },
     "rules-16": {
@@ -261,8 +261,8 @@ const routingPlan = {
       "type": "http",
       "behavior": "ipcidr",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/9294c07224a94ad3fe9d48eea160e4406d14fbde/text/cn.txt",
-      "path": "./flclash/upstream/10a1c18eb09d62931a127b9943d9eadfaac6eb93f2ef4ff00fdb507a2307dc16.list",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/bf01519a9e21f366266bd48c6afae430ec8febfe/text/cn.txt",
+      "path": "./flclash/upstream/b43c2cef23533de3a4ea1fb46e1b092cbf6f3cd1780ec6e2658cc6e843c4be4c.list",
       "interval": 604800
     },
     "rules-24": {
