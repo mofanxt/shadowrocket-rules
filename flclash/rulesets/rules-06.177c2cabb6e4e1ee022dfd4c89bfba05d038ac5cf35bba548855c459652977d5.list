@@ -1,4 +1,0 @@
-DOMAIN-REGEX,(?-i:^epicgames-download[0-9]\.akamaized\.net\z)
-DOMAIN-REGEX,(?-i:^.+-mihayo\.akamaized\.net\z)
-DOMAIN-REGEX,(?-i:^cdn[0-9]-epicgames-[0-9]+\.file\.myqcloud\.com\z)
-DOMAIN-REGEX,(?-i:^epicgames-download[0-9]-[0-9]+\.file\.myqcloud\.com\z)
