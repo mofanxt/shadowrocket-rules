@@ -1,4 +1,4 @@
-// 只转换分流和 DNS；节点和订阅保留在客户端本地。
+// 分流、DNS 与域名嗅探覆写；节点和订阅保留在客户端本地。
 const dnsPlan = {
   "enable": true,
   "ipv6": false,
@@ -312,6 +312,34 @@ const routingPlan = {
   ]
 };
 function main(config) {
+  const sniffPlan = {
+  "enable": true,
+  "force-dns-mapping": true,
+  "parse-pure-ip": true,
+  "override-destination": true,
+  "sniff": {
+    "HTTP": {
+      "ports": [
+        80,
+        "8080-8880"
+      ]
+    },
+    "TLS": {
+      "ports": [
+        443,
+        8443
+      ]
+    },
+    "QUIC": {
+      "ports": [
+        443,
+        8443
+      ]
+    }
+  }
+};
+  // 保留客户端明确设置的跳过列表，固定嗅探开关与协议端口按配置应用。
+  config.sniffer = Object.assign({}, config.sniffer || {}, sniffPlan);
   const nodes = Array.isArray(config.proxies) ? config.proxies : [];
   const sources = config["proxy-providers"] || {};
   const names = nodes.map(function (node) { return node.name; });
