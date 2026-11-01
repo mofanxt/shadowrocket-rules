@@ -1,4 +1,0 @@
-DOMAIN-REGEX,(?-i:^(client-(download|update)(\.[a-z0-9-]+)?|cdn\.[a-z0-9-]+)\.(steampowered|steamstatic)\.com\z)
-DOMAIN-REGEX,(?-i:^(store|checkout)(\.[a-z0-9-]+)?\.steamstatic\.com\z)
-DOMAIN-REGEX,(?-i:^steampipe(-[a-z0-9-]+)?\.akamaized\.net\z)
-DOMAIN-REGEX,(?-i:^steam\.(apac|eca|naeu|ru)\.qtlglb\.com\z)
