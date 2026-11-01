@@ -85,16 +85,16 @@ const routingPlan = {
       "type": "http",
       "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-01.b86708cb1018d7a860b9363f6af3347d15b9c64dba1920493d3e80a44b41fc21.list",
-      "path": "./flclash/rulesets/rules-01.b86708cb1018d7a860b9363f6af3347d15b9c64dba1920493d3e80a44b41fc21.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-01.3a1c3354f3fd3a2751cda7d75c1001d9abd7a0996292825d31ba06dbaabfa2e1.list",
+      "path": "./flclash/rulesets/rules-01.3a1c3354f3fd3a2751cda7d75c1001d9abd7a0996292825d31ba06dbaabfa2e1.list",
       "interval": 604800
     },
     "rules-02": {
       "type": "http",
       "behavior": "classical",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-02.0bc8f912bae768ee0f6c2e9b340e5e392e03ddf489864cb20d9e8dd91314e191.list",
-      "path": "./flclash/rulesets/rules-02.0bc8f912bae768ee0f6c2e9b340e5e392e03ddf489864cb20d9e8dd91314e191.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-02.a0986ce68b758584191d2e94ecd5a33ab3d03c87c8f07ab0152812db9f6e3e06.list",
+      "path": "./flclash/rulesets/rules-02.a0986ce68b758584191d2e94ecd5a33ab3d03c87c8f07ab0152812db9f6e3e06.list",
       "interval": 604800
     },
     "rules-03": {
