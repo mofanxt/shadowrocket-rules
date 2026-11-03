@@ -27,40 +27,40 @@ const dnsPlan = {
       "https://dns.alidns.com/dns-query"
     ],
     "rule-set:rules-03": [
-      "https://8.8.8.8/dns-query#PROXY"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-04": [
-      "https://8.8.8.8/dns-query#PROXY"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-05": [
-      "https://8.8.8.8/dns-query#PROXY"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-06": [
-      "https://8.8.8.8/dns-query#PROXY"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-07": [
-      "https://8.8.8.8/dns-query#PROXY"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-08": [
-      "https://8.8.8.8/dns-query#PROXY"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-09": [
-      "https://8.8.8.8/dns-query#PROXY"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-10": [
-      "https://8.8.8.8/dns-query#PROXY"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-11": [
-      "https://8.8.8.8/dns-query#PROXY"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-12": [
-      "https://8.8.8.8/dns-query#PROXY"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-13": [
-      "https://8.8.8.8/dns-query#PROXY"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-14": [
-      "https://8.8.8.8/dns-query#PROXY"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-15": [
       "https://doh.pub/dns-query",
@@ -76,7 +76,7 @@ const dnsPlan = {
     ]
   },
   "nameserver": [
-    "https://8.8.8.8/dns-query#PROXY"
+    "8.8.8.8#PROXY"
   ]
 };
 const routingPlan = {
