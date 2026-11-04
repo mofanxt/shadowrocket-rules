@@ -85,8 +85,8 @@ const routingPlan = {
       "type": "http",
       "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-01.3a1c3354f3fd3a2751cda7d75c1001d9abd7a0996292825d31ba06dbaabfa2e1.list",
-      "path": "./flclash/rulesets/rules-01.3a1c3354f3fd3a2751cda7d75c1001d9abd7a0996292825d31ba06dbaabfa2e1.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-01.cbae97f3966c3a4c5b79829af32c4faa6ac47ddc230ed4766f902158dce7505d.list",
+      "path": "./flclash/rulesets/rules-01.cbae97f3966c3a4c5b79829af32c4faa6ac47ddc230ed4766f902158dce7505d.list",
       "interval": 604800
     },
     "rules-02": {
@@ -181,16 +181,16 @@ const routingPlan = {
       "type": "http",
       "behavior": "domain",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-13.8f01a5239981dbdde6c9584e76d29fe42af694b08e51d26ddfee9df3a814bdb5.list",
-      "path": "./flclash/rulesets/rules-13.8f01a5239981dbdde6c9584e76d29fe42af694b08e51d26ddfee9df3a814bdb5.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-13.9f83c04cb3cbd0fe59d423b7ca3614048059f9b06dd057fd72264b717f649dcf.list",
+      "path": "./flclash/rulesets/rules-13.9f83c04cb3cbd0fe59d423b7ca3614048059f9b06dd057fd72264b717f649dcf.list",
       "interval": 604800
     },
     "rules-14": {
       "type": "http",
       "behavior": "classical",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-14.63734fd74a8e50827602e0e390a4e9b43d304973bd9782b39aad4430c1441d4f.list",
-      "path": "./flclash/rulesets/rules-14.63734fd74a8e50827602e0e390a4e9b43d304973bd9782b39aad4430c1441d4f.list",
+      "url": "https://raw.githubusercontent.com/mofanxt/shadowrocket-rules/refs/heads/main/flclash/rulesets/rules-14.b907c40719b341d158b02770a76d0540dc919bd4735fbfa49b32fadd7f912ae9.list",
+      "path": "./flclash/rulesets/rules-14.b907c40719b341d158b02770a76d0540dc919bd4735fbfa49b32fadd7f912ae9.list",
       "interval": 604800
     },
     "rules-15": {
@@ -213,8 +213,8 @@ const routingPlan = {
       "type": "http",
       "behavior": "classical",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/6dcdb6bf663611e0e36d04dae16e6bb071f6807b/ruleset/direct.txt",
-      "path": "./flclash/upstream/16283f503673d4a73f31690754e3f2695a8dc8913fb1fd188b01534af0a0960e.list",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/293cca573b170f8d89d0a7c267518748a598c780/ruleset/direct.txt",
+      "path": "./flclash/upstream/2e42c17f8f8a9378a4591c2351752a95a1d4384302c35b4af8f4a513ffa016d8.list",
       "interval": 604800
     },
     "rules-18": {
@@ -229,24 +229,24 @@ const routingPlan = {
       "type": "http",
       "behavior": "ipcidr",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/7ae41d7f3d4e7acc37acd1b02e554b7bb85f3a8d/text/hk.txt",
-      "path": "./flclash/upstream/b7590eb7ef57a71614becf1db053c0167ac63c877bf6c94a330437d6e3aa6a18.list",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/6232c9528e724aeb626fd44a908afabf695e5ea7/text/hk.txt",
+      "path": "./flclash/upstream/aad88baaec9e04faf74323f1a3691edd9e90644d5b61c61cd9f0e9d0c8a522b5.list",
       "interval": 604800
     },
     "rules-20": {
       "type": "http",
       "behavior": "ipcidr",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/7ae41d7f3d4e7acc37acd1b02e554b7bb85f3a8d/text/sg.txt",
-      "path": "./flclash/upstream/5601ec34e9f96845db9fefd7373c24fd3f2d3a2801329de8a528e6a2d7d2322a.list",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/6232c9528e724aeb626fd44a908afabf695e5ea7/text/sg.txt",
+      "path": "./flclash/upstream/f1b848f9b241672fc42a771832f332443f465c4512cbf4c93914640405541e6c.list",
       "interval": 604800
     },
     "rules-21": {
       "type": "http",
       "behavior": "ipcidr",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/7ae41d7f3d4e7acc37acd1b02e554b7bb85f3a8d/text/tw.txt",
-      "path": "./flclash/upstream/557cc75b18fbfb1700d312d56869ff9671570f4746ffd17a3796ea1d6845c420.list",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/6232c9528e724aeb626fd44a908afabf695e5ea7/text/tw.txt",
+      "path": "./flclash/upstream/89f7de62ab2b5c5934e5f94ecc64079d42bac0fbd5940dbeaac15643ced74a4d.list",
       "interval": 604800
     },
     "rules-22": {
@@ -269,8 +269,8 @@ const routingPlan = {
       "type": "http",
       "behavior": "ipcidr",
       "format": "text",
-      "url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/7ae41d7f3d4e7acc37acd1b02e554b7bb85f3a8d/text/cn.txt",
-      "path": "./flclash/upstream/85455562e00f0c4f169c458384ada179edefe02381d01c9638b14079f0c7ee37.list",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/6232c9528e724aeb626fd44a908afabf695e5ea7/text/cn.txt",
+      "path": "./flclash/upstream/04672a826b9571cbab7a87625fe3d41a773b28752ac7087e7f5519fb3f28cb9c.list",
       "interval": 604800
     },
     "rules-25": {
