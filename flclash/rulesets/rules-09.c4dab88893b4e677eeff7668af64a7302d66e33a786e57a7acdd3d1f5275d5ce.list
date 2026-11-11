@@ -1,5 +1,0 @@
-DOMAIN-REGEX,(?-i:(^|\.)apiproxy-device-prod-nlb-.+\.amazonaws\.com\z)
-DOMAIN-REGEX,(?-i:(^|\.)apiproxy-website-nlb-prod-.+\.amazonaws\.com\z)
-DOMAIN-REGEX,(?-i:(^|\.)dualstack\.apiproxy-.+\.amazonaws\.com\z)
-DOMAIN-REGEX,(?-i:(^|\.)dualstack\.ichnaea-web-.+\.amazonaws\.com\z)
-DOMAIN-REGEX,(?-i:^hses[1-7]?\.akamaized\.net\z)
