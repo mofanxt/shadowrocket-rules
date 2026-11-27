@@ -32,8 +32,7 @@ const dnsPlan = {
       "8.8.8.8#PROXY"
     ],
     "rule-set:rules-05": [
-      "https://doh.pub/dns-query",
-      "https://dns.alidns.com/dns-query"
+      "8.8.8.8#PROXY"
     ],
     "rule-set:rules-06": [
       "8.8.8.8#PROXY"
@@ -230,7 +229,7 @@ const routingPlan = {
     "RULE-SET,rules-02,PROXY",
     "RULE-SET,rules-03,PROXY",
     "RULE-SET,rules-04,PROXY",
-    "RULE-SET,rules-05,DIRECT",
+    "RULE-SET,rules-05,PROXY",
     "RULE-SET,rules-06,PROXY",
     "RULE-SET,rules-07,PROXY",
     "RULE-SET,rules-08,PROXY",
